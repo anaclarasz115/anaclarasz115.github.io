@@ -1,5 +1,5 @@
 body {
-background-color: #b4c0f8;
+background-color: #be3939;
 margin: 0;
 font-family: 'Times New Roman', Times, serif;
 
@@ -11,7 +11,7 @@ font-family: 'Times New Roman', Times, serif;
 
 .foto{
     flex: 1;
-    background-color: #a2bef3 ;
+    background-color: #000000 ;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -69,7 +69,7 @@ justify-content: center;
 }
 .social a:hover{
     color:black ;
-    background-color: hsl(0, 95%, 25%);
+    background-color: #ebbcbc;
 }
 footer{
     background-color: aliceblue;
@@ -83,7 +83,7 @@ footer p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 }
-
+/* Estilos para a parte das seções "Sobre mim" e "Habilidades" */
 .sobre {
   display: flex; /* Faz com que as seções (.sobre-mim e .habilidades) fiquem lado a lado */
   flex-wrap: wrap; /* Permite que as seções quebrem para a próxima linha em telas menores */
@@ -133,4 +133,12 @@ footer p {
   margin-bottom: 12px; /* Adiciona uma margem de 12 pixels abaixo de cada item */
   padding-left: 20px; /* Adiciona um preenchimento esquerdo para o texto (para dar espaço ao check) */
   position: relative; /* Define a posição relativa para que o pseudo-elemento "::before" possa ser posicionado dentro dele */
+}
+
+/* Estilos para o marcador de check (✔) antes de cada item de habilidade */
+.habilidades li::before {
+  content: "✔"; /* Insere o caractere de check (✔) antes do texto */
+  position: absolute; /* Posiciona o check de forma absoluta em relação ao seu pai (.habilidades li) */
+  left: 0; /* Alinha o check na borda esquerda do item */
+  color: black; /* Define a cor do check como preto */
 }

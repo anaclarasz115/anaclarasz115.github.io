@@ -67,3 +67,7 @@ justify-content: center;
     text-align: center;
 
 }
+.social a:hover{
+    color:black ;
+    background-color: rgb(146, 10, 10);
+}
